@@ -20,7 +20,7 @@ evasion = characterStats["Insight"]
 
 breakthrough = characterStats["Academics"] + (characterStats["Focus"] / 2)
 
-speed = 5
+speed = 2
 
 morale = characterStats["Charisma"] + characterStats["Confidence"] + characterStats["Focus"]
 
