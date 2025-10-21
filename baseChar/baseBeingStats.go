@@ -20,7 +20,7 @@ func BaseBeingStats(charStat BaseCharacterStats) BaseBeing {
 	defense := charStat.Endurance
 	accuracy := charStat.Adaptability
 	evasion := charStat.Insight
-	breakthrough := (charStat.Academics + charStat.Focus) / 2
+	breakthrough := (charStat.Academics + charStat.Focus + charStat.Insight) / 2
 	speed := 2
 	morale := charStat.Charisma + charStat.Confidence + charStat.Focus
 	stability := charStat.Endurance + charStat.Willpower + charStat.Focus
