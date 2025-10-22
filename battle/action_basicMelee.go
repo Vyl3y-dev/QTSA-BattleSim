@@ -7,6 +7,4 @@ import (
 
 func BasicAttack(charStat basechar.BaseBeing) int {
 
-	acc := charStat.Accuracy
-
 }
